@@ -1,0 +1,17 @@
+Distance
+Year
+Quarter
+Month
+DayofMonth
+DayOfWeek
+CRSArrTime
+CRSDepTime
+CRSElapsedTime
+Airline_r
+Origin_r
+Dest_r
+Marketing_Airline_Network_r
+Operated_or_Branded_Code_Share_Partners_r
+IATA_Code_Marketing_Airline_r
+Operating_Airline_r
+IATA_Code_Operating_Airline_r
