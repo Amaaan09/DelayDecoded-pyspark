@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
-from pyspark.sql import SparkSession, Row
 from pyspark.ml import PipelineModel
 
-spark = SparkSession.builder.appName("bigData").getOrCreate()
-model = PipelineModel.load('files/airport-shiz/')
 
 st.title("DelayDecoded")
 
@@ -35,5 +32,6 @@ crs_elapsed_time = st.sidebar.number_input("CRS Elapsed Time", value=df['CRSElap
 
 if st.button("Predict"):
     st.write("Predicted Delay: 10")
-    model = PipelineModel.load('files/airport-index/')
+    model = PipelineModel.load('airport-index/')
+    print('model loaded')
 
