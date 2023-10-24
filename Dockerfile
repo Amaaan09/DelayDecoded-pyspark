@@ -11,6 +11,6 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install -r req.txt
+RUN pip install -r requirements.txt
 
 CMD ["streamlit", "run", "page.py"]
