@@ -12,7 +12,7 @@ This is done using Docker and Streamlit, run the following command:
 <br>
 Git clone the repository:
 ```
-git clone https://github.com/Amaaan09/pyspark-airport.git
+git clone https://github.com/Amaaan09/DelayDecoded-pyspark.git
 ```
 Build the docker image:
 ```
