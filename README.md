@@ -10,15 +10,12 @@ I decided to use **PySpark** for this project. PySpark is the Python API written
 # Deployment
 This is done using Docker and Streamlit, run the following command:
 <br>
-Git clone the repository:
+
+Pull the docker image:
 ```
-git clone https://github.com/Amaaan09/DelayDecoded-pyspark.git
-```
-Build the docker image:
-```
-docker build -t flight-delay .
+docker pull dockeramaan/pysparkproj
 ```
 Run the docker image:
 ```
-docker run -p 8501:8501 flight-delay
+docker run -p 8501:8501 dockeramaan/pysparkproj
 ```
