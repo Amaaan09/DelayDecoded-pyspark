@@ -9,6 +9,11 @@ I decided to use **PySpark** for this project. PySpark is the Python API written
 
 # Deployment
 This is done using Docker and Streamlit, run the following command:
+
+Visit the website:
+https://delaydecoded.azurewebsites.net
+
+OR
 <br>
 
 Pull the docker image:
