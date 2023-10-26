@@ -13,4 +13,6 @@ COPY . /app
 
 RUN pip install -r requirements.txt
 
-CMD ["streamlit", "run", "page.py"]
+EXPOSE 80
+
+CMD ["streamlit", "run", "page.py", "--server.port", "80"]
