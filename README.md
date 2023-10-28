@@ -8,12 +8,12 @@ I decided to use **PySpark** for this project. PySpark is the Python API written
 [This](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022/) is the dataset used for this project. The dataset contains information about various airlines. The dataset contains 61 columns and more than 10 Million Rows rows. The datasets were combined using Python. The dataset was cleaned and preprocessed using PySpark.
 
 # Deployment
-This is done using Docker and Streamlit, run the following command:
-
-Visit the website:
+This is done using Docker and Streamlit, Visit the website:
 https://delaydecoded.azurewebsites.net
 
 OR
+
+Run the following command:
 <br>
 
 Pull the docker image:
